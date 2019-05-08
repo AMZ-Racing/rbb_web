@@ -1,0 +1,47 @@
+{
+	"defaultSeverity": "error",
+	"extends": "tslint-config-airbnb",
+	"jsRules": {},
+	"rules": {
+		"semicolon": [true, "always"],
+		"ter-indent": [
+			false
+		],
+        "no-unused-variable": {
+          "severity": "warning"
+        },
+		"ter-arrow-parens": false,
+		"array-bracket-spacing": false,
+		"max-line-length": [
+			true,
+			150
+		],
+		"trailing-comma": [
+			false
+		],
+		"ter-prefer-arrow-callback": [
+			false
+		],
+		"variable-name": [
+			false
+		],
+		"function-name": [
+			false
+		],
+		"space-before-function-paren": false,
+		"import-name": [
+			false
+		],
+		"align": [
+			false
+		],
+		"semicolor": [
+			false
+		],
+		"radix": [
+			false
+		],
+		"quotemark": ["double"]
+	},
+	"rulesDirectory": []
+}
