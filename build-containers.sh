@@ -1,4 +1,3 @@
 #!/bin/sh
 
-yarn build-staging
-docker build . -t amzracing/rbb-web:latest
+docker build --no-cache --progress=plain . -t amzracing/rbb-web:auto
