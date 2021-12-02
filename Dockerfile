@@ -1,4 +1,5 @@
 FROM amd64/nginx:alpine
+MAINTAINER hhendrik@ethz.ch
 MAINTAINER aschnabl@ethz.ch
 
 RUN mkdir /rbb_web
