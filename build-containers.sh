@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build --no-cache --progress=plain . -t amzracing/rbb-web:auto
+docker build --no-cache --progress=plain . -t amzracing/rbb-web:latest
